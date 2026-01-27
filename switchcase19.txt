@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+    int cat,dis;
+    scanf("%d %d",&cat,&dis);
+    switch(cat){
+        case 1:
+        if(dis<=30){
+            printf("eligible");
+            break;
+        }
+        else{
+            printf("eligible with extra fee");
+            break;
+        }
+        case 2:
+        if(dis<=30){
+            printf("eligible");
+         
+        }
+        else{
+            printf("not eligible");
+            
+        }
+           break;
+        default:
+        printf("invalid");
+        break;
+    }
+    return 0;
+}
